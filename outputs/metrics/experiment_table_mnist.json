@@ -1,0 +1,12 @@
+[
+  {
+    "experiment": "exp4_cnn_bn_drop",
+    "change": "Does dropout reduce the train/validation gap?",
+    "params": 468778,
+    "epochs_run": 12,
+    "val_accuracy": 0.9921653866767883,
+    "val_loss": 0.027941610664129257,
+    "train_val_gap": 0.00020509958267211914,
+    "minutes": 12.4
+  }
+]

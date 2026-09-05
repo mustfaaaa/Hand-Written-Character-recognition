@@ -1,0 +1,96 @@
+{
+  "name": "exp3_cnn_bn",
+  "dataset": "emnist_balanced",
+  "question": "Does batch normalisation help optimisation/accuracy?",
+  "variant": "bn",
+  "augmentation": null,
+  "lr_schedule": false,
+  "hyperparameters": {
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "max_epochs": 12,
+    "epochs_run": 10,
+    "val_fraction": 0.1,
+    "seed": 42,
+    "early_stopping_patience": 5
+  },
+  "parameters": {
+    "trainable": 472911,
+    "non_trainable": 640,
+    "total": 473551
+  },
+  "n_train": 101520,
+  "n_val": 11280,
+  "n_test_untouched": 18800,
+  "n_classes": 47,
+  "train_seconds": 1394.3,
+  "seconds_per_epoch": 139.4,
+  "best_epoch_1based": 5,
+  "val_accuracy": 0.8923758864402771,
+  "val_loss": 0.30824217200279236,
+  "train_accuracy_at_best": 0.9094266891479492,
+  "train_val_gap": 0.01705080270767212,
+  "history": {
+    "accuracy": [
+      0.832446813583374,
+      0.8843281865119934,
+      0.8950157761573792,
+      0.9040386080741882,
+      0.9094266891479492,
+      0.9166567921638489,
+      0.9224586486816406,
+      0.9288219213485718,
+      0.9353132247924805,
+      0.9412726759910583
+    ],
+    "loss": [
+      0.5755451917648315,
+      0.3247702419757843,
+      0.28668561577796936,
+      0.2560470998287201,
+      0.23622958362102509,
+      0.21455924212932587,
+      0.19625018537044525,
+      0.179040789604187,
+      0.16027876734733582,
+      0.14511850476264954
+    ],
+    "val_accuracy": [
+      0.8522163033485413,
+      0.8682624101638794,
+      0.8869680762290955,
+      0.8834219574928284,
+      0.8923758864402771,
+      0.8818262219429016,
+      0.8820921778678894,
+      0.881117045879364,
+      0.8831560015678406,
+      0.8797872066497803
+    ],
+    "val_loss": [
+      0.43205565214157104,
+      0.37122321128845215,
+      0.3117094039916992,
+      0.3259839117527008,
+      0.30824217200279236,
+      0.326274037361145,
+      0.33452191948890686,
+      0.34240126609802246,
+      0.3467858135700226,
+      0.36400651931762695
+    ]
+  },
+  "model_path": "C:\\Hand Written Character recognition\\models\\final\\emnist_balanced_exp3_cnn_bn.keras",
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "cpu_count": 8,
+    "numpy": "2.0.2",
+    "seed": 42,
+    "tensorflow": "2.18.1",
+    "gpus": [],
+    "scikit_learn": "1.5.2"
+  }
+}

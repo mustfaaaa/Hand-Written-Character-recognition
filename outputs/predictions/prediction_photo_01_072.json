@@ -1,0 +1,38 @@
+{
+  "image": "samples/photo_01_072.png",
+  "model": "C:\\Hand Written Character recognition\\models\\final\\handwritten_character_cnn.keras",
+  "predicted_character": "H",
+  "confidence": 0.9988870024681091,
+  "top_k": [
+    {
+      "rank": 1,
+      "character": "H",
+      "class_index": 17,
+      "probability": 0.9988870024681091
+    },
+    {
+      "rank": 2,
+      "character": "4",
+      "class_index": 4,
+      "probability": 0.0007128399447537959
+    },
+    {
+      "rank": 3,
+      "character": "h",
+      "class_index": 42,
+      "probability": 0.00029009015997871757
+    },
+    {
+      "rank": 4,
+      "character": "K",
+      "class_index": 20,
+      "probability": 3.186830144841224e-05
+    },
+    {
+      "rank": 5,
+      "character": "A",
+      "class_index": 10,
+      "probability": 2.5996705517172813e-05
+    }
+  ]
+}

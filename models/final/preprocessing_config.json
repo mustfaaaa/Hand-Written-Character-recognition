@@ -1,0 +1,24 @@
+{
+  "image_size": 28,
+  "channels": 1,
+  "input_shape": [
+    28,
+    28,
+    1
+  ],
+  "inner_box": 20,
+  "scaling": "divide by 255 -> [0, 1]",
+  "dataset_orientation_fix": "transpose H and W axes of raw EMNIST IDX images",
+  "user_image_pipeline": [
+    "read as grayscale (transparency composited onto white)",
+    "gaussian blur 3x3",
+    "otsu threshold",
+    "polarity detection (ink = minority region)",
+    "keep largest connected component",
+    "crop to ink bounding box",
+    "resize longest side to 20 px, aspect preserved",
+    "centre by centre of mass in 28x28",
+    "scale to [0, 1]"
+  ],
+  "foreground_convention": "white ink (high values) on black background"
+}

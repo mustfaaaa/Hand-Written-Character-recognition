@@ -1,0 +1,52 @@
+[
+  {
+    "experiment": "exp2_cnn_simple",
+    "change": "How far does a plain CNN (no BN, no dropout) get?",
+    "params": 472591,
+    "epochs_run": 8,
+    "val_accuracy": 0.8804964423179626,
+    "val_loss": 0.32943859696388245,
+    "train_val_gap": 0.003940105438232422,
+    "minutes": 11.6
+  },
+  {
+    "experiment": "exp3_cnn_bn",
+    "change": "Does batch normalisation help optimisation/accuracy?",
+    "params": 473551,
+    "epochs_run": 10,
+    "val_accuracy": 0.8923758864402771,
+    "val_loss": 0.30824217200279236,
+    "train_val_gap": 0.01705080270767212,
+    "minutes": 23.2
+  },
+  {
+    "experiment": "exp4_cnn_bn_drop",
+    "change": "Does dropout reduce the train/validation gap?",
+    "params": 473551,
+    "epochs_run": 12,
+    "val_accuracy": 0.8980496525764465,
+    "val_loss": 0.27671724557876587,
+    "train_val_gap": -0.02003544569015503,
+    "minutes": 24.6
+  },
+  {
+    "experiment": "exp5_cnn_bn_drop_aug",
+    "change": "Does label-preserving augmentation improve generalisation?",
+    "params": 473551,
+    "epochs_run": 14,
+    "val_accuracy": 0.8876773118972778,
+    "val_loss": 0.3117256462574005,
+    "train_val_gap": -0.042149364948272705,
+    "minutes": 26.9
+  },
+  {
+    "experiment": "exp6_cnn_deep_aug_lr",
+    "change": "Does a deeper model with LR scheduling beat exp5?",
+    "params": 595791,
+    "epochs_run": 25,
+    "val_accuracy": 0.9071808457374573,
+    "val_loss": 0.3297911584377289,
+    "train_val_gap": -0.00975179672241211,
+    "minutes": 60.8
+  }
+]

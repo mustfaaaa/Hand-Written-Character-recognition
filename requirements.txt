@@ -1,0 +1,28 @@
+# Handwritten Character Recognition - pinned to the versions this project
+# was actually built and verified with (Python 3.12, Windows 11, CPU only).
+#
+#   python -m venv .venv
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+#
+# Note: tensorflow-cpu is used deliberately. No CUDA GPU was available on the
+# development machine, and the CPU wheel is smaller and installs faster.
+# Swap it for `tensorflow==2.18.1` if you have a supported GPU.
+
+tensorflow-cpu==2.18.1
+keras==3.15.1
+
+numpy==2.0.2
+scipy==1.14.1
+scikit-learn==1.5.2
+pandas==2.2.3
+
+matplotlib==3.9.2
+seaborn==0.13.2
+
+pillow==11.0.0
+opencv-python-headless==4.10.0.84
+
+joblib==1.4.2
+
+# Only needed for the interactive drawing demo (src/app.py).
+Flask==3.0.3

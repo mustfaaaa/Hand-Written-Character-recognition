@@ -1,0 +1,273 @@
+=== START Sat Sep  5 20:37:44 PST 2026 ===
+
+==========================================================================
+BASELINES on emnist_balanced (fit on 29,986 images, 18,800 test)
+==========================================================================
+C:\Hand Written Character recognition\.venv\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+logistic_regression    val_acc=0.6559  test_acc=0.6485  test_macroF1=0.6466  fit=45.4s
+C:\Hand Written Character recognition\.venv\Lib\site-packages\joblib\externals\loky\backend\context.py:136: UserWarning: Could not find the number of physical cores for the following reason:
+[WinError 2] The system cannot find the file specified
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "C:\Hand Written Character recognition\.venv\Lib\site-packages\joblib\externals\loky\backend\context.py", line 257, in _count_physical_cores
+    cpu_info = subprocess.run(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\shahs\AppData\Local\Python\pythoncore-3.12-64\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shahs\AppData\Local\Python\pythoncore-3.12-64\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\shahs\AppData\Local\Python\pythoncore-3.12-64\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+knn_k3                 val_acc=0.7236  test_acc=0.7290  test_macroF1=0.7296  fit=0.0s
+random_forest          val_acc=0.7741  test_acc=0.7739  test_macroF1=0.7713  fit=38.0s
+
+==========================================================================
+exp2_cnn_simple  |  dataset=emnist_balanced  |  How far does a plain CNN (no BN, no dropout) get?
+==========================================================================
+train=101,520  val=11,280  test(untouched)=18,800  classes=47  params=472,591
+C:\Hand Written Character recognition\.venv\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/12
+794/794 - 89s - 113ms/step - accuracy: 0.7775 - loss: 0.7194 - val_accuracy: 0.8515 - val_loss: 0.4228
+Epoch 2/12
+794/794 - 96s - 120ms/step - accuracy: 0.8685 - loss: 0.3750 - val_accuracy: 0.8690 - val_loss: 0.3686
+Epoch 3/12
+794/794 - 89s - 112ms/step - accuracy: 0.8844 - loss: 0.3195 - val_accuracy: 0.8805 - val_loss: 0.3294
+Epoch 4/12
+794/794 - 79s - 100ms/step - accuracy: 0.8944 - loss: 0.2847 - val_accuracy: 0.8868 - val_loss: 0.3353
+Epoch 5/12
+794/794 - 91s - 114ms/step - accuracy: 0.9022 - loss: 0.2573 - val_accuracy: 0.8824 - val_loss: 0.3330
+Epoch 6/12
+794/794 - 84s - 106ms/step - accuracy: 0.9096 - loss: 0.2346 - val_accuracy: 0.8798 - val_loss: 0.3316
+Epoch 7/12
+794/794 - 80s - 101ms/step - accuracy: 0.9160 - loss: 0.2138 - val_accuracy: 0.8827 - val_loss: 0.3448
+Epoch 8/12
+794/794 - 87s - 110ms/step - accuracy: 0.9210 - loss: 0.1950 - val_accuracy: 0.8802 - val_loss: 0.3651
+Epoch 8: early stopping
+Restoring model weights from the end of the best epoch: 3.
+
+>> exp2_cnn_simple: best epoch 3/8  val_acc=0.8805  val_loss=0.3294  gap=+0.0039  time=11.6 min
+
+==========================================================================
+exp3_cnn_bn  |  dataset=emnist_balanced  |  Does batch normalisation help optimisation/accuracy?
+==========================================================================
+train=101,520  val=11,280  test(untouched)=18,800  classes=47  params=473,551
+Epoch 1/12
+794/794 - 141s - 178ms/step - accuracy: 0.8324 - loss: 0.5755 - val_accuracy: 0.8522 - val_loss: 0.4321
+Epoch 2/12
+794/794 - 138s - 174ms/step - accuracy: 0.8843 - loss: 0.3248 - val_accuracy: 0.8683 - val_loss: 0.3712
+Epoch 3/12
+794/794 - 145s - 183ms/step - accuracy: 0.8950 - loss: 0.2867 - val_accuracy: 0.8870 - val_loss: 0.3117
+Epoch 4/12
+794/794 - 139s - 175ms/step - accuracy: 0.9040 - loss: 0.2560 - val_accuracy: 0.8834 - val_loss: 0.3260
+Epoch 5/12
+794/794 - 142s - 179ms/step - accuracy: 0.9094 - loss: 0.2362 - val_accuracy: 0.8924 - val_loss: 0.3082
+Epoch 6/12
+794/794 - 134s - 169ms/step - accuracy: 0.9167 - loss: 0.2146 - val_accuracy: 0.8818 - val_loss: 0.3263
+Epoch 7/12
+794/794 - 140s - 176ms/step - accuracy: 0.9225 - loss: 0.1963 - val_accuracy: 0.8821 - val_loss: 0.3345
+Epoch 8/12
+794/794 - 135s - 170ms/step - accuracy: 0.9288 - loss: 0.1790 - val_accuracy: 0.8811 - val_loss: 0.3424
+Epoch 9/12
+794/794 - 137s - 172ms/step - accuracy: 0.9353 - loss: 0.1603 - val_accuracy: 0.8832 - val_loss: 0.3468
+Epoch 10/12
+794/794 - 143s - 180ms/step - accuracy: 0.9413 - loss: 0.1451 - val_accuracy: 0.8798 - val_loss: 0.3640
+Epoch 10: early stopping
+Restoring model weights from the end of the best epoch: 5.
+
+>> exp3_cnn_bn: best epoch 5/10  val_acc=0.8924  val_loss=0.3082  gap=+0.0171  time=23.2 min
+
+==========================================================================
+exp4_cnn_bn_drop  |  dataset=emnist_balanced  |  Does dropout reduce the train/validation gap?
+==========================================================================
+train=101,520  val=11,280  test(untouched)=18,800  classes=47  params=473,551
+Epoch 1/12
+794/794 - 148s - 186ms/step - accuracy: 0.6985 - loss: 1.0550 - val_accuracy: 0.8528 - val_loss: 0.4218
+Epoch 2/12
+794/794 - 137s - 173ms/step - accuracy: 0.8222 - loss: 0.5370 - val_accuracy: 0.8739 - val_loss: 0.3526
+Epoch 3/12
+794/794 - 120s - 151ms/step - accuracy: 0.8418 - loss: 0.4678 - val_accuracy: 0.8780 - val_loss: 0.3346
+Epoch 4/12
+794/794 - 120s - 151ms/step - accuracy: 0.8519 - loss: 0.4317 - val_accuracy: 0.8834 - val_loss: 0.3200
+Epoch 5/12
+794/794 - 119s - 150ms/step - accuracy: 0.8588 - loss: 0.4060 - val_accuracy: 0.8831 - val_loss: 0.3218
+Epoch 6/12
+794/794 - 119s - 150ms/step - accuracy: 0.8649 - loss: 0.3901 - val_accuracy: 0.8918 - val_loss: 0.3009
+Epoch 7/12
+794/794 - 118s - 149ms/step - accuracy: 0.8676 - loss: 0.3767 - val_accuracy: 0.8949 - val_loss: 0.2896
+Epoch 8/12
+794/794 - 119s - 150ms/step - accuracy: 0.8715 - loss: 0.3659 - val_accuracy: 0.8979 - val_loss: 0.2888
+Epoch 9/12
+794/794 - 121s - 152ms/step - accuracy: 0.8749 - loss: 0.3538 - val_accuracy: 0.8994 - val_loss: 0.2799
+Epoch 10/12
+794/794 - 119s - 150ms/step - accuracy: 0.8744 - loss: 0.3482 - val_accuracy: 0.8977 - val_loss: 0.2849
+Epoch 11/12
+794/794 - 119s - 150ms/step - accuracy: 0.8780 - loss: 0.3382 - val_accuracy: 0.8980 - val_loss: 0.2767
+Epoch 12/12
+794/794 - 119s - 149ms/step - accuracy: 0.8800 - loss: 0.3311 - val_accuracy: 0.9004 - val_loss: 0.2806
+Restoring model weights from the end of the best epoch: 11.
+
+>> exp4_cnn_bn_drop: best epoch 11/12  val_acc=0.8980  val_loss=0.2767  gap=-0.0200  time=24.6 min
+
+==========================================================================
+exp5_cnn_bn_drop_aug  |  dataset=emnist_balanced  |  Does label-preserving augmentation improve generalisation?
+==========================================================================
+train=101,520  val=11,280  test(untouched)=18,800  classes=47  params=473,551
+Epoch 1/18
+794/794 - 125s - 157ms/step - accuracy: 0.6169 - loss: 1.3377 - val_accuracy: 0.8588 - val_loss: 0.4169
+Epoch 2/18
+794/794 - 124s - 156ms/step - accuracy: 0.7827 - loss: 0.6674 - val_accuracy: 0.8641 - val_loss: 0.3894
+Epoch 3/18
+794/794 - 122s - 153ms/step - accuracy: 0.8096 - loss: 0.5733 - val_accuracy: 0.8765 - val_loss: 0.3542
+Epoch 4/18
+794/794 - 123s - 154ms/step - accuracy: 0.8224 - loss: 0.5268 - val_accuracy: 0.8798 - val_loss: 0.3433
+Epoch 5/18
+794/794 - 123s - 154ms/step - accuracy: 0.8314 - loss: 0.4962 - val_accuracy: 0.8837 - val_loss: 0.3269
+Epoch 6/18
+794/794 - 123s - 155ms/step - accuracy: 0.8373 - loss: 0.4790 - val_accuracy: 0.8868 - val_loss: 0.3291
+Epoch 7/18
+794/794 - 109s - 137ms/step - accuracy: 0.8388 - loss: 0.4703 - val_accuracy: 0.8863 - val_loss: 0.3194
+Epoch 8/18
+794/794 - 104s - 131ms/step - accuracy: 0.8417 - loss: 0.4605 - val_accuracy: 0.8777 - val_loss: 0.3555
+Epoch 9/18
+794/794 - 104s - 131ms/step - accuracy: 0.8455 - loss: 0.4445 - val_accuracy: 0.8877 - val_loss: 0.3117
+Epoch 10/18
+794/794 - 107s - 135ms/step - accuracy: 0.8485 - loss: 0.4395 - val_accuracy: 0.8765 - val_loss: 0.3370
+Epoch 11/18
+794/794 - 107s - 134ms/step - accuracy: 0.8518 - loss: 0.4282 - val_accuracy: 0.8786 - val_loss: 0.3414
+Epoch 12/18
+794/794 - 110s - 139ms/step - accuracy: 0.8526 - loss: 0.4237 - val_accuracy: 0.8848 - val_loss: 0.3287
+Epoch 13/18
+794/794 - 116s - 146ms/step - accuracy: 0.8536 - loss: 0.4184 - val_accuracy: 0.8902 - val_loss: 0.3153
+Epoch 14/18
+794/794 - 119s - 150ms/step - accuracy: 0.8562 - loss: 0.4120 - val_accuracy: 0.8903 - val_loss: 0.3149
+Epoch 14: early stopping
+Restoring model weights from the end of the best epoch: 9.
+
+>> exp5_cnn_bn_drop_aug: best epoch 9/14  val_acc=0.8877  val_loss=0.3117  gap=-0.0421  time=26.9 min
+
+==========================================================================
+exp6_cnn_deep_aug_lr  |  dataset=emnist_balanced  |  Does a deeper model with LR scheduling beat exp5?
+==========================================================================
+train=101,520  val=11,280  test(untouched)=18,800  classes=47  params=595,791
+Epoch 1/25
+794/794 - 165s - 208ms/step - accuracy: 0.6687 - loss: 1.2178 - val_accuracy: 0.8684 - val_loss: 0.4816 - learning_rate: 0.0010
+Epoch 2/25
+794/794 - 153s - 193ms/step - accuracy: 0.8213 - loss: 0.6320 - val_accuracy: 0.8650 - val_loss: 0.4945 - learning_rate: 0.0010
+Epoch 3/25
+794/794 - 141s - 178ms/step - accuracy: 0.8383 - loss: 0.5801 - val_accuracy: 0.8812 - val_loss: 0.4529 - learning_rate: 0.0010
+Epoch 4/25
+794/794 - 136s - 171ms/step - accuracy: 0.8492 - loss: 0.5502 - val_accuracy: 0.8785 - val_loss: 0.4595 - learning_rate: 0.0010
+Epoch 5/25
+
+Epoch 5: ReduceLROnPlateau reducing learning rate to 0.0005000000237487257.
+794/794 - 134s - 169ms/step - accuracy: 0.8530 - loss: 0.5392 - val_accuracy: 0.8529 - val_loss: 0.5306 - learning_rate: 0.0010
+Epoch 6/25
+794/794 - 132s - 167ms/step - accuracy: 0.8672 - loss: 0.4965 - val_accuracy: 0.8864 - val_loss: 0.4254 - learning_rate: 5.0000e-04
+Epoch 7/25
+794/794 - 133s - 168ms/step - accuracy: 0.8703 - loss: 0.4773 - val_accuracy: 0.8904 - val_loss: 0.4096 - learning_rate: 5.0000e-04
+Epoch 8/25
+794/794 - 132s - 167ms/step - accuracy: 0.8721 - loss: 0.4704 - val_accuracy: 0.8941 - val_loss: 0.3985 - learning_rate: 5.0000e-04
+Epoch 9/25
+794/794 - 132s - 167ms/step - accuracy: 0.8731 - loss: 0.4621 - val_accuracy: 0.8973 - val_loss: 0.3863 - learning_rate: 5.0000e-04
+Epoch 10/25
+794/794 - 132s - 166ms/step - accuracy: 0.8750 - loss: 0.4541 - val_accuracy: 0.8926 - val_loss: 0.3910 - learning_rate: 5.0000e-04
+Epoch 11/25
+
+Epoch 11: ReduceLROnPlateau reducing learning rate to 0.0002500000118743628.
+794/794 - 131s - 165ms/step - accuracy: 0.8755 - loss: 0.4496 - val_accuracy: 0.8891 - val_loss: 0.4072 - learning_rate: 5.0000e-04
+Epoch 12/25
+794/794 - 132s - 167ms/step - accuracy: 0.8826 - loss: 0.4256 - val_accuracy: 0.8950 - val_loss: 0.3884 - learning_rate: 2.5000e-04
+Epoch 13/25
+794/794 - 132s - 166ms/step - accuracy: 0.8839 - loss: 0.4147 - val_accuracy: 0.8973 - val_loss: 0.3800 - learning_rate: 2.5000e-04
+Epoch 14/25
+794/794 - 132s - 166ms/step - accuracy: 0.8861 - loss: 0.4063 - val_accuracy: 0.9038 - val_loss: 0.3600 - learning_rate: 2.5000e-04
+Epoch 15/25
+794/794 - 140s - 176ms/step - accuracy: 0.8866 - loss: 0.4025 - val_accuracy: 0.9031 - val_loss: 0.3556 - learning_rate: 2.5000e-04
+Epoch 16/25
+794/794 - 130s - 164ms/step - accuracy: 0.8871 - loss: 0.3977 - val_accuracy: 0.9006 - val_loss: 0.3603 - learning_rate: 2.5000e-04
+Epoch 17/25
+
+Epoch 17: ReduceLROnPlateau reducing learning rate to 0.0001250000059371814.
+794/794 - 133s - 168ms/step - accuracy: 0.8874 - loss: 0.3931 - val_accuracy: 0.8973 - val_loss: 0.3618 - learning_rate: 2.5000e-04
+Epoch 18/25
+794/794 - 137s - 173ms/step - accuracy: 0.8919 - loss: 0.3789 - val_accuracy: 0.9027 - val_loss: 0.3461 - learning_rate: 1.2500e-04
+Epoch 19/25
+794/794 - 132s - 167ms/step - accuracy: 0.8935 - loss: 0.3738 - val_accuracy: 0.9060 - val_loss: 0.3407 - learning_rate: 1.2500e-04
+Epoch 20/25
+794/794 - 150s - 189ms/step - accuracy: 0.8922 - loss: 0.3707 - val_accuracy: 0.9047 - val_loss: 0.3424 - learning_rate: 1.2500e-04
+Epoch 21/25
+794/794 - 184s - 232ms/step - accuracy: 0.8929 - loss: 0.3689 - val_accuracy: 0.9051 - val_loss: 0.3360 - learning_rate: 1.2500e-04
+Epoch 22/25
+794/794 - 182s - 229ms/step - accuracy: 0.8937 - loss: 0.3654 - val_accuracy: 0.9073 - val_loss: 0.3316 - learning_rate: 1.2500e-04
+Epoch 23/25
+794/794 - 183s - 230ms/step - accuracy: 0.8956 - loss: 0.3602 - val_accuracy: 0.9018 - val_loss: 0.3438 - learning_rate: 1.2500e-04
+Epoch 24/25
+
+Epoch 24: ReduceLROnPlateau reducing learning rate to 6.25000029685907e-05.
+794/794 - 174s - 219ms/step - accuracy: 0.8948 - loss: 0.3589 - val_accuracy: 0.9035 - val_loss: 0.3393 - learning_rate: 1.2500e-04
+Epoch 25/25
+794/794 - 183s - 231ms/step - accuracy: 0.8974 - loss: 0.3510 - val_accuracy: 0.9072 - val_loss: 0.3298 - learning_rate: 6.2500e-05
+Restoring model weights from the end of the best epoch: 25.
+
+>> exp6_cnn_deep_aug_lr: best epoch 25/25  val_acc=0.9072  val_loss=0.3298  gap=-0.0098  time=60.8 min
+
+==========================================================================
+EXPERIMENT TABLE (validation only - test set untouched)
+==========================================================================
+experiment                    params  ep  val_acc  val_loss      gap    min
+exp2_cnn_simple              472,591   8   0.8805    0.3294  +0.0039   11.6
+exp3_cnn_bn                  473,551  10   0.8924    0.3082  +0.0171   23.2
+exp4_cnn_bn_drop             473,551  12   0.8980    0.2767  -0.0200   24.6
+exp5_cnn_bn_drop_aug         473,551  14   0.8877    0.3117  -0.0421   26.9
+exp6_cnn_deep_aug_lr         595,791  25   0.9072    0.3298  -0.0098   60.8
+
+==========================================================================
+exp4_cnn_bn_drop  |  dataset=mnist  |  Does dropout reduce the train/validation gap?
+==========================================================================
+train=54,001  val=5,999  test(untouched)=10,000  classes=10  params=468,778
+C:\Hand Written Character recognition\.venv\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/12
+422/422 - 63s - 148ms/step - accuracy: 0.9400 - loss: 0.2072 - val_accuracy: 0.5341 - val_loss: 1.1988
+Epoch 2/12
+422/422 - 63s - 150ms/step - accuracy: 0.9801 - loss: 0.0708 - val_accuracy: 0.9877 - val_loss: 0.0470
+Epoch 3/12
+422/422 - 70s - 167ms/step - accuracy: 0.9847 - loss: 0.0532 - val_accuracy: 0.9900 - val_loss: 0.0328
+Epoch 4/12
+422/422 - 69s - 163ms/step - accuracy: 0.9864 - loss: 0.0444 - val_accuracy: 0.9902 - val_loss: 0.0343
+Epoch 5/12
+422/422 - 67s - 160ms/step - accuracy: 0.9884 - loss: 0.0378 - val_accuracy: 0.9897 - val_loss: 0.0315
+Epoch 6/12
+422/422 - 72s - 171ms/step - accuracy: 0.9898 - loss: 0.0337 - val_accuracy: 0.9915 - val_loss: 0.0303
+Epoch 7/12
+422/422 - 54s - 129ms/step - accuracy: 0.9899 - loss: 0.0313 - val_accuracy: 0.9907 - val_loss: 0.0341
+Epoch 8/12
+422/422 - 52s - 124ms/step - accuracy: 0.9910 - loss: 0.0291 - val_accuracy: 0.9913 - val_loss: 0.0319
+Epoch 9/12
+422/422 - 54s - 128ms/step - accuracy: 0.9909 - loss: 0.0280 - val_accuracy: 0.9922 - val_loss: 0.0294
+Epoch 10/12
+422/422 - 56s - 132ms/step - accuracy: 0.9924 - loss: 0.0245 - val_accuracy: 0.9922 - val_loss: 0.0279
+Epoch 11/12
+422/422 - 58s - 136ms/step - accuracy: 0.9928 - loss: 0.0225 - val_accuracy: 0.9918 - val_loss: 0.0314
+Epoch 12/12
+422/422 - 67s - 158ms/step - accuracy: 0.9931 - loss: 0.0211 - val_accuracy: 0.9913 - val_loss: 0.0312
+Restoring model weights from the end of the best epoch: 10.
+
+>> exp4_cnn_bn_drop: best epoch 10/12  val_acc=0.9922  val_loss=0.0279  gap=+0.0002  time=12.4 min
+
+==========================================================================
+EXPERIMENT TABLE (validation only - test set untouched)
+==========================================================================
+experiment                    params  ep  val_acc  val_loss      gap    min
+exp4_cnn_bn_drop             468,778  12   0.9922    0.0279  +0.0002   12.4
+=== END Sat Sep  5 23:19:40 PST 2026 ===

@@ -1,0 +1,1849 @@
+{
+  "overall": {
+    "n_images": 41,
+    "top1_accuracy": 1.0,
+    "top3_accuracy": 1.0,
+    "top5_accuracy": 1.0
+  },
+  "by_family": {
+    "edge_case": {
+      "n": 5,
+      "top1_accuracy": 1.0,
+      "top3_accuracy": 1.0,
+      "top5_accuracy": 1.0,
+      "mean_confidence": 0.9646270155906678
+    },
+    "font": {
+      "n": 12,
+      "top1_accuracy": 1.0,
+      "top3_accuracy": 1.0,
+      "top5_accuracy": 1.0,
+      "mean_confidence": 0.9310920039812723
+    },
+    "photo": {
+      "n": 24,
+      "top1_accuracy": 1.0,
+      "top3_accuracy": 1.0,
+      "top5_accuracy": 1.0,
+      "mean_confidence": 0.961800679564476
+    }
+  },
+  "predictions": [
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_00_077.jpg",
+      "file": "photo_00_077.jpg",
+      "family": "photo",
+      "source": "EMNIST test index 1614 (unseen during training)",
+      "true_label": "M",
+      "predicted": "M",
+      "confidence": 0.998674750328064,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "M",
+          "class_index": 22,
+          "probability": 0.998674750328064
+        },
+        {
+          "rank": 2,
+          "character": "n",
+          "class_index": 43,
+          "probability": 0.00047829412505961955
+        },
+        {
+          "rank": 3,
+          "character": "H",
+          "class_index": 17,
+          "probability": 0.00039655319415032864
+        },
+        {
+          "rank": 4,
+          "character": "N",
+          "class_index": 23,
+          "probability": 0.000233711747569032
+        },
+        {
+          "rank": 5,
+          "character": "U",
+          "class_index": 30,
+          "probability": 6.68138382025063e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_01_072.png",
+      "file": "photo_01_072.png",
+      "family": "photo",
+      "source": "EMNIST test index 9645 (unseen during training)",
+      "true_label": "H",
+      "predicted": "H",
+      "confidence": 0.9842538833618164,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "H",
+          "class_index": 17,
+          "probability": 0.9842538833618164
+        },
+        {
+          "rank": 2,
+          "character": "4",
+          "class_index": 4,
+          "probability": 0.011086655780673027
+        },
+        {
+          "rank": 3,
+          "character": "h",
+          "class_index": 42,
+          "probability": 0.0026058887597173452
+        },
+        {
+          "rank": 4,
+          "character": "A",
+          "class_index": 10,
+          "probability": 0.0012905949261039495
+        },
+        {
+          "rank": 5,
+          "character": "K",
+          "class_index": 20,
+          "probability": 0.0001687030162429437
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_02_098.jpg",
+      "file": "photo_02_098.jpg",
+      "family": "photo",
+      "source": "EMNIST test index 18329 (unseen during training)",
+      "true_label": "b",
+      "predicted": "b",
+      "confidence": 0.9850340485572815,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "b",
+          "class_index": 37,
+          "probability": 0.9850340485572815
+        },
+        {
+          "rank": 2,
+          "character": "6",
+          "class_index": 6,
+          "probability": 0.014729216694831848
+        },
+        {
+          "rank": 3,
+          "character": "B",
+          "class_index": 11,
+          "probability": 0.00012803793651983142
+        },
+        {
+          "rank": 4,
+          "character": "G",
+          "class_index": 16,
+          "probability": 2.7783256882685237e-05
+        },
+        {
+          "rank": 5,
+          "character": "D",
+          "class_index": 13,
+          "probability": 1.047446312441025e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_03_074.png",
+      "file": "photo_03_074.png",
+      "family": "photo",
+      "source": "EMNIST test index 14301 (unseen during training)",
+      "true_label": "J",
+      "predicted": "J",
+      "confidence": 0.9937992691993713,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "J",
+          "class_index": 19,
+          "probability": 0.9937992691993713
+        },
+        {
+          "rank": 2,
+          "character": "U",
+          "class_index": 30,
+          "probability": 0.0036939368583261967
+        },
+        {
+          "rank": 3,
+          "character": "S",
+          "class_index": 28,
+          "probability": 0.00103267771191895
+        },
+        {
+          "rank": 4,
+          "character": "D",
+          "class_index": 13,
+          "probability": 0.0004914525779895484
+        },
+        {
+          "rank": 5,
+          "character": "V",
+          "class_index": 31,
+          "probability": 0.0002669153909664601
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_04_097.jpg",
+      "file": "photo_04_097.jpg",
+      "family": "photo",
+      "source": "EMNIST test index 13099 (unseen during training)",
+      "true_label": "a",
+      "predicted": "a",
+      "confidence": 0.8920246958732605,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "a",
+          "class_index": 36,
+          "probability": 0.8920246958732605
+        },
+        {
+          "rank": 2,
+          "character": "d",
+          "class_index": 38,
+          "probability": 0.10467145591974258
+        },
+        {
+          "rank": 3,
+          "character": "g",
+          "class_index": 41,
+          "probability": 0.0009469087817706168
+        },
+        {
+          "rank": 4,
+          "character": "2",
+          "class_index": 2,
+          "probability": 0.0008181615849025548
+        },
+        {
+          "rank": 5,
+          "character": "8",
+          "class_index": 8,
+          "probability": 0.0006234118482097983
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_05_086.png",
+      "file": "photo_05_086.png",
+      "family": "photo",
+      "source": "EMNIST test index 8132 (unseen during training)",
+      "true_label": "V",
+      "predicted": "V",
+      "confidence": 0.994450569152832,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "V",
+          "class_index": 31,
+          "probability": 0.994450569152832
+        },
+        {
+          "rank": 2,
+          "character": "U",
+          "class_index": 30,
+          "probability": 0.00297167687676847
+        },
+        {
+          "rank": 3,
+          "character": "Y",
+          "class_index": 34,
+          "probability": 0.0020801303908228874
+        },
+        {
+          "rank": 4,
+          "character": "W",
+          "class_index": 32,
+          "probability": 0.00012889337085653096
+        },
+        {
+          "rank": 5,
+          "character": "N",
+          "class_index": 23,
+          "probability": 9.32123584789224e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_06_052.jpg",
+      "file": "photo_06_052.jpg",
+      "family": "photo",
+      "source": "EMNIST test index 3431 (unseen during training)",
+      "true_label": "4",
+      "predicted": "4",
+      "confidence": 0.999523401260376,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "4",
+          "class_index": 4,
+          "probability": 0.999523401260376
+        },
+        {
+          "rank": 2,
+          "character": "H",
+          "class_index": 17,
+          "probability": 0.00024112517712637782
+        },
+        {
+          "rank": 3,
+          "character": "Y",
+          "class_index": 34,
+          "probability": 0.00016024487558752298
+        },
+        {
+          "rank": 4,
+          "character": "U",
+          "class_index": 30,
+          "probability": 3.0388764571398497e-05
+        },
+        {
+          "rank": 5,
+          "character": "t",
+          "class_index": 46,
+          "probability": 1.3029683941567782e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_07_114.png",
+      "file": "photo_07_114.png",
+      "family": "photo",
+      "source": "EMNIST test index 14771 (unseen during training)",
+      "true_label": "r",
+      "predicted": "r",
+      "confidence": 0.9938200116157532,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "r",
+          "class_index": 45,
+          "probability": 0.9938200116157532
+        },
+        {
+          "rank": 2,
+          "character": "T",
+          "class_index": 29,
+          "probability": 0.00473615201190114
+        },
+        {
+          "rank": 3,
+          "character": "t",
+          "class_index": 46,
+          "probability": 0.000685075472574681
+        },
+        {
+          "rank": 4,
+          "character": "Y",
+          "class_index": 34,
+          "probability": 0.0002447408332955092
+        },
+        {
+          "rank": 5,
+          "character": "F",
+          "class_index": 15,
+          "probability": 0.00018987864314112812
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_08_075.jpg",
+      "file": "photo_08_075.jpg",
+      "family": "photo",
+      "source": "EMNIST test index 16126 (unseen during training)",
+      "true_label": "K",
+      "predicted": "K",
+      "confidence": 0.9828689098358154,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "K",
+          "class_index": 20,
+          "probability": 0.9828689098358154
+        },
+        {
+          "rank": 2,
+          "character": "f",
+          "class_index": 40,
+          "probability": 0.007368599995970726
+        },
+        {
+          "rank": 3,
+          "character": "F",
+          "class_index": 15,
+          "probability": 0.002805772004649043
+        },
+        {
+          "rank": 4,
+          "character": "r",
+          "class_index": 45,
+          "probability": 0.0018527908250689507
+        },
+        {
+          "rank": 5,
+          "character": "H",
+          "class_index": 17,
+          "probability": 0.0017031260067597032
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_09_070.png",
+      "file": "photo_09_070.png",
+      "family": "photo",
+      "source": "EMNIST test index 12292 (unseen during training)",
+      "true_label": "F",
+      "predicted": "F",
+      "confidence": 0.5014166235923767,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "F",
+          "class_index": 15,
+          "probability": 0.5014166235923767
+        },
+        {
+          "rank": 2,
+          "character": "f",
+          "class_index": 40,
+          "probability": 0.49811890721321106
+        },
+        {
+          "rank": 3,
+          "character": "P",
+          "class_index": 25,
+          "probability": 0.00012628930562641472
+        },
+        {
+          "rank": 4,
+          "character": "A",
+          "class_index": 10,
+          "probability": 8.114305092021823e-05
+        },
+        {
+          "rank": 5,
+          "character": "r",
+          "class_index": 45,
+          "probability": 4.5013184717390686e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_10_081.jpg",
+      "file": "photo_10_081.jpg",
+      "family": "photo",
+      "source": "EMNIST test index 1769 (unseen during training)",
+      "true_label": "Q",
+      "predicted": "Q",
+      "confidence": 0.9872293472290039,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "Q",
+          "class_index": 26,
+          "probability": 0.9872293472290039
+        },
+        {
+          "rank": 2,
+          "character": "q",
+          "class_index": 44,
+          "probability": 0.01237889751791954
+        },
+        {
+          "rank": 3,
+          "character": "0",
+          "class_index": 0,
+          "probability": 0.00012751034228131175
+        },
+        {
+          "rank": 4,
+          "character": "O",
+          "class_index": 24,
+          "probability": 7.083806849550456e-05
+        },
+        {
+          "rank": 5,
+          "character": "g",
+          "class_index": 41,
+          "probability": 6.680972001049668e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_11_101.png",
+      "file": "photo_11_101.png",
+      "family": "photo",
+      "source": "EMNIST test index 8465 (unseen during training)",
+      "true_label": "e",
+      "predicted": "e",
+      "confidence": 0.984207034111023,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "e",
+          "class_index": 39,
+          "probability": 0.984207034111023
+        },
+        {
+          "rank": 2,
+          "character": "R",
+          "class_index": 27,
+          "probability": 0.006343062035739422
+        },
+        {
+          "rank": 3,
+          "character": "C",
+          "class_index": 12,
+          "probability": 0.0032304218038916588
+        },
+        {
+          "rank": 4,
+          "character": "r",
+          "class_index": 45,
+          "probability": 0.0015619965270161629
+        },
+        {
+          "rank": 5,
+          "character": "L",
+          "class_index": 21,
+          "probability": 0.0008603710448369384
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_12_050.jpg",
+      "file": "photo_12_050.jpg",
+      "family": "photo",
+      "source": "EMNIST test index 1675 (unseen during training)",
+      "true_label": "2",
+      "predicted": "2",
+      "confidence": 0.9973764419555664,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "2",
+          "class_index": 2,
+          "probability": 0.9973764419555664
+        },
+        {
+          "rank": 2,
+          "character": "Z",
+          "class_index": 35,
+          "probability": 0.001787226414307952
+        },
+        {
+          "rank": 3,
+          "character": "a",
+          "class_index": 36,
+          "probability": 0.0007443024660460651
+        },
+        {
+          "rank": 4,
+          "character": "3",
+          "class_index": 3,
+          "probability": 8.44395108288154e-05
+        },
+        {
+          "rank": 5,
+          "character": "X",
+          "class_index": 33,
+          "probability": 1.6636045074847061e-06
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_13_051.png",
+      "file": "photo_13_051.png",
+      "family": "photo",
+      "source": "EMNIST test index 13824 (unseen during training)",
+      "true_label": "3",
+      "predicted": "3",
+      "confidence": 0.9996508359909058,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "3",
+          "class_index": 3,
+          "probability": 0.9996508359909058
+        },
+        {
+          "rank": 2,
+          "character": "Z",
+          "class_index": 35,
+          "probability": 0.00024017016403377056
+        },
+        {
+          "rank": 3,
+          "character": "B",
+          "class_index": 11,
+          "probability": 0.0001026525569614023
+        },
+        {
+          "rank": 4,
+          "character": "b",
+          "class_index": 37,
+          "probability": 4.16996863350505e-06
+        },
+        {
+          "rank": 5,
+          "character": "5",
+          "class_index": 5,
+          "probability": 1.8556345366960159e-06
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_14_082.jpg",
+      "file": "photo_14_082.jpg",
+      "family": "photo",
+      "source": "EMNIST test index 9405 (unseen during training)",
+      "true_label": "R",
+      "predicted": "R",
+      "confidence": 0.9989088773727417,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "R",
+          "class_index": 27,
+          "probability": 0.9989088773727417
+        },
+        {
+          "rank": 2,
+          "character": "r",
+          "class_index": 45,
+          "probability": 0.0010716670658439398
+        },
+        {
+          "rank": 3,
+          "character": "K",
+          "class_index": 20,
+          "probability": 1.5852459910092875e-05
+        },
+        {
+          "rank": 4,
+          "character": "B",
+          "class_index": 11,
+          "probability": 2.3393999981635716e-06
+        },
+        {
+          "rank": 5,
+          "character": "A",
+          "class_index": 10,
+          "probability": 4.264530559794366e-07
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_15_086.png",
+      "file": "photo_15_086.png",
+      "family": "photo",
+      "source": "EMNIST test index 14533 (unseen during training)",
+      "true_label": "V",
+      "predicted": "V",
+      "confidence": 0.979621171951294,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "V",
+          "class_index": 31,
+          "probability": 0.979621171951294
+        },
+        {
+          "rank": 2,
+          "character": "U",
+          "class_index": 30,
+          "probability": 0.0188335832208395
+        },
+        {
+          "rank": 3,
+          "character": "Y",
+          "class_index": 34,
+          "probability": 0.0006293648621067405
+        },
+        {
+          "rank": 4,
+          "character": "J",
+          "class_index": 19,
+          "probability": 0.00031282412237487733
+        },
+        {
+          "rank": 5,
+          "character": "N",
+          "class_index": 23,
+          "probability": 0.00010995294724125415
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_16_103.jpg",
+      "file": "photo_16_103.jpg",
+      "family": "photo",
+      "source": "EMNIST test index 8242 (unseen during training)",
+      "true_label": "g",
+      "predicted": "g",
+      "confidence": 0.9476854205131531,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "g",
+          "class_index": 41,
+          "probability": 0.9476854205131531
+        },
+        {
+          "rank": 2,
+          "character": "9",
+          "class_index": 9,
+          "probability": 0.0360366553068161
+        },
+        {
+          "rank": 3,
+          "character": "q",
+          "class_index": 44,
+          "probability": 0.015892090275883675
+        },
+        {
+          "rank": 4,
+          "character": "F",
+          "class_index": 15,
+          "probability": 7.205437577795237e-05
+        },
+        {
+          "rank": 5,
+          "character": "Y",
+          "class_index": 34,
+          "probability": 6.17007608525455e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_17_104.png",
+      "file": "photo_17_104.png",
+      "family": "photo",
+      "source": "EMNIST test index 17423 (unseen during training)",
+      "true_label": "h",
+      "predicted": "h",
+      "confidence": 0.9980683922767639,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "h",
+          "class_index": 42,
+          "probability": 0.9980683922767639
+        },
+        {
+          "rank": 2,
+          "character": "b",
+          "class_index": 37,
+          "probability": 0.0015828937757760286
+        },
+        {
+          "rank": 3,
+          "character": "K",
+          "class_index": 20,
+          "probability": 0.00011636618000920862
+        },
+        {
+          "rank": 4,
+          "character": "n",
+          "class_index": 43,
+          "probability": 0.00011362319492036477
+        },
+        {
+          "rank": 5,
+          "character": "L",
+          "class_index": 21,
+          "probability": 5.519009937415831e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_18_065.jpg",
+      "file": "photo_18_065.jpg",
+      "family": "photo",
+      "source": "EMNIST test index 6970 (unseen during training)",
+      "true_label": "A",
+      "predicted": "A",
+      "confidence": 0.9839029312133789,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "A",
+          "class_index": 10,
+          "probability": 0.9839029312133789
+        },
+        {
+          "rank": 2,
+          "character": "a",
+          "class_index": 36,
+          "probability": 0.010599224828183651
+        },
+        {
+          "rank": 3,
+          "character": "R",
+          "class_index": 27,
+          "probability": 0.002094435505568981
+        },
+        {
+          "rank": 4,
+          "character": "g",
+          "class_index": 41,
+          "probability": 0.0004201169067528099
+        },
+        {
+          "rank": 5,
+          "character": "9",
+          "class_index": 9,
+          "probability": 0.0003350208280608058
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_19_084.png",
+      "file": "photo_19_084.png",
+      "family": "photo",
+      "source": "EMNIST test index 9890 (unseen during training)",
+      "true_label": "T",
+      "predicted": "T",
+      "confidence": 0.9709481000900269,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "T",
+          "class_index": 29,
+          "probability": 0.9709481000900269
+        },
+        {
+          "rank": 2,
+          "character": "t",
+          "class_index": 46,
+          "probability": 0.021384622901678085
+        },
+        {
+          "rank": 3,
+          "character": "7",
+          "class_index": 7,
+          "probability": 0.007007189095020294
+        },
+        {
+          "rank": 4,
+          "character": "r",
+          "class_index": 45,
+          "probability": 0.0003213430172763765
+        },
+        {
+          "rank": 5,
+          "character": "Y",
+          "class_index": 34,
+          "probability": 0.00013742900046054274
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_20_056.jpg",
+      "file": "photo_20_056.jpg",
+      "family": "photo",
+      "source": "EMNIST test index 2407 (unseen during training)",
+      "true_label": "8",
+      "predicted": "8",
+      "confidence": 0.9257561564445496,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "8",
+          "class_index": 8,
+          "probability": 0.9257561564445496
+        },
+        {
+          "rank": 2,
+          "character": "q",
+          "class_index": 44,
+          "probability": 0.07182632386684418
+        },
+        {
+          "rank": 3,
+          "character": "g",
+          "class_index": 41,
+          "probability": 0.0018998135346919298
+        },
+        {
+          "rank": 4,
+          "character": "f",
+          "class_index": 40,
+          "probability": 9.682816016720608e-05
+        },
+        {
+          "rank": 5,
+          "character": "Q",
+          "class_index": 26,
+          "probability": 8.564743620809168e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_21_110.png",
+      "file": "photo_21_110.png",
+      "family": "photo",
+      "source": "EMNIST test index 3784 (unseen during training)",
+      "true_label": "n",
+      "predicted": "n",
+      "confidence": 0.9874308109283447,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "n",
+          "class_index": 43,
+          "probability": 0.9874308109283447
+        },
+        {
+          "rank": 2,
+          "character": "h",
+          "class_index": 42,
+          "probability": 0.011913545429706573
+        },
+        {
+          "rank": 3,
+          "character": "M",
+          "class_index": 22,
+          "probability": 0.00023187646002043039
+        },
+        {
+          "rank": 4,
+          "character": "r",
+          "class_index": 45,
+          "probability": 0.000213903040275909
+        },
+        {
+          "rank": 5,
+          "character": "N",
+          "class_index": 23,
+          "probability": 0.00011623398313531652
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_22_072.jpg",
+      "file": "photo_22_072.jpg",
+      "family": "photo",
+      "source": "EMNIST test index 13482 (unseen during training)",
+      "true_label": "H",
+      "predicted": "H",
+      "confidence": 0.9983847141265869,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "H",
+          "class_index": 17,
+          "probability": 0.9983847141265869
+        },
+        {
+          "rank": 2,
+          "character": "h",
+          "class_index": 42,
+          "probability": 0.0011598977725952864
+        },
+        {
+          "rank": 3,
+          "character": "K",
+          "class_index": 20,
+          "probability": 0.00019313479424454272
+        },
+        {
+          "rank": 4,
+          "character": "A",
+          "class_index": 10,
+          "probability": 0.0001584696292411536
+        },
+        {
+          "rank": 5,
+          "character": "M",
+          "class_index": 22,
+          "probability": 4.3069499952252954e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\photo_23_054.png",
+      "file": "photo_23_054.png",
+      "family": "photo",
+      "source": "EMNIST test index 15783 (unseen during training)",
+      "true_label": "6",
+      "predicted": "6",
+      "confidence": 0.9981799125671387,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "6",
+          "class_index": 6,
+          "probability": 0.9981799125671387
+        },
+        {
+          "rank": 2,
+          "character": "G",
+          "class_index": 16,
+          "probability": 0.0013904424849897623
+        },
+        {
+          "rank": 3,
+          "character": "b",
+          "class_index": 37,
+          "probability": 0.0003684883995447308
+        },
+        {
+          "rank": 4,
+          "character": "g",
+          "class_index": 41,
+          "probability": 3.0400347895920277e-05
+        },
+        {
+          "rank": 5,
+          "character": "q",
+          "class_index": 44,
+          "probability": 8.098286343738437e-06
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\edge_light_on_dark_056.png",
+      "file": "edge_light_on_dark_056.png",
+      "family": "edge_case",
+      "source": "EMNIST test index 3940, rendered as light_on_dark",
+      "true_label": "8",
+      "predicted": "8",
+      "confidence": 0.9850946664810181,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "8",
+          "class_index": 8,
+          "probability": 0.9850946664810181
+        },
+        {
+          "rank": 2,
+          "character": "R",
+          "class_index": 27,
+          "probability": 0.00463416101410985
+        },
+        {
+          "rank": 3,
+          "character": "2",
+          "class_index": 2,
+          "probability": 0.0035600268747657537
+        },
+        {
+          "rank": 4,
+          "character": "q",
+          "class_index": 44,
+          "probability": 0.0024863164871931076
+        },
+        {
+          "rank": 5,
+          "character": "r",
+          "class_index": 45,
+          "probability": 0.0016113818855956197
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\edge_transparent_png_056.png",
+      "file": "edge_transparent_png_056.png",
+      "family": "edge_case",
+      "source": "EMNIST test index 3940, rendered as transparent_png",
+      "true_label": "8",
+      "predicted": "8",
+      "confidence": 0.9872037768363953,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "8",
+          "class_index": 8,
+          "probability": 0.9872037768363953
+        },
+        {
+          "rank": 2,
+          "character": "2",
+          "class_index": 2,
+          "probability": 0.0035500614903867245
+        },
+        {
+          "rank": 3,
+          "character": "R",
+          "class_index": 27,
+          "probability": 0.0033437316305935383
+        },
+        {
+          "rank": 4,
+          "character": "q",
+          "class_index": 44,
+          "probability": 0.0021405431907624006
+        },
+        {
+          "rank": 5,
+          "character": "g",
+          "class_index": 41,
+          "probability": 0.0013603914994746447
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\edge_small_56px_056.png",
+      "file": "edge_small_56px_056.png",
+      "family": "edge_case",
+      "source": "EMNIST test index 3940, rendered as small_56px",
+      "true_label": "8",
+      "predicted": "8",
+      "confidence": 0.8779350519180298,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "8",
+          "class_index": 8,
+          "probability": 0.8779350519180298
+        },
+        {
+          "rank": 2,
+          "character": "R",
+          "class_index": 27,
+          "probability": 0.03562675788998604
+        },
+        {
+          "rank": 3,
+          "character": "q",
+          "class_index": 44,
+          "probability": 0.025319745764136314
+        },
+        {
+          "rank": 4,
+          "character": "2",
+          "class_index": 2,
+          "probability": 0.02119380794465542
+        },
+        {
+          "rank": 5,
+          "character": "X",
+          "class_index": 33,
+          "probability": 0.014864141121506691
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\edge_large_900px_056.jpg",
+      "file": "edge_large_900px_056.jpg",
+      "family": "edge_case",
+      "source": "EMNIST test index 3940, rendered as large_900px",
+      "true_label": "8",
+      "predicted": "8",
+      "confidence": 0.9851033091545105,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "8",
+          "class_index": 8,
+          "probability": 0.9851033091545105
+        },
+        {
+          "rank": 2,
+          "character": "R",
+          "class_index": 27,
+          "probability": 0.0038856889586895704
+        },
+        {
+          "rank": 3,
+          "character": "2",
+          "class_index": 2,
+          "probability": 0.003685269970446825
+        },
+        {
+          "rank": 4,
+          "character": "q",
+          "class_index": 44,
+          "probability": 0.0024745981208980083
+        },
+        {
+          "rank": 5,
+          "character": "r",
+          "class_index": 45,
+          "probability": 0.0018915641121566296
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\edge_offcentre_whitespace_056.png",
+      "file": "edge_offcentre_whitespace_056.png",
+      "family": "edge_case",
+      "source": "EMNIST test index 3940, rendered as offcentre_whitespace",
+      "true_label": "8",
+      "predicted": "8",
+      "confidence": 0.987798273563385,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "8",
+          "class_index": 8,
+          "probability": 0.987798273563385
+        },
+        {
+          "rank": 2,
+          "character": "R",
+          "class_index": 27,
+          "probability": 0.0033106158953160048
+        },
+        {
+          "rank": 3,
+          "character": "2",
+          "class_index": 2,
+          "probability": 0.0028796892147511244
+        },
+        {
+          "rank": 4,
+          "character": "q",
+          "class_index": 44,
+          "probability": 0.002266579307615757
+        },
+        {
+          "rank": 5,
+          "character": "r",
+          "class_index": 45,
+          "probability": 0.0013993107713758945
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\font_00_082.png",
+      "file": "font_00_082.png",
+      "family": "font",
+      "source": "rendered with Inkfree.ttf (printed glyph, out of distribution)",
+      "true_label": "R",
+      "predicted": "R",
+      "confidence": 0.993440568447113,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "R",
+          "class_index": 27,
+          "probability": 0.993440568447113
+        },
+        {
+          "rank": 2,
+          "character": "B",
+          "class_index": 11,
+          "probability": 0.0026217543054372072
+        },
+        {
+          "rank": 3,
+          "character": "r",
+          "class_index": 45,
+          "probability": 0.0018038779962807894
+        },
+        {
+          "rank": 4,
+          "character": "P",
+          "class_index": 25,
+          "probability": 0.0017383239464834332
+        },
+        {
+          "rank": 5,
+          "character": "K",
+          "class_index": 20,
+          "probability": 0.0002598137652967125
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\font_01_090.png",
+      "file": "font_01_090.png",
+      "family": "font",
+      "source": "rendered with segoesc.ttf (printed glyph, out of distribution)",
+      "true_label": "Z",
+      "predicted": "Z",
+      "confidence": 0.999854564666748,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "Z",
+          "class_index": 35,
+          "probability": 0.999854564666748
+        },
+        {
+          "rank": 2,
+          "character": "2",
+          "class_index": 2,
+          "probability": 0.0001317287824349478
+        },
+        {
+          "rank": 3,
+          "character": "7",
+          "class_index": 7,
+          "probability": 5.453558969747974e-06
+        },
+        {
+          "rank": 4,
+          "character": "3",
+          "class_index": 3,
+          "probability": 2.386360392847564e-06
+        },
+        {
+          "rank": 5,
+          "character": "q",
+          "class_index": 44,
+          "probability": 1.2554148725030245e-06
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\font_02_078.png",
+      "file": "font_02_078.png",
+      "family": "font",
+      "source": "rendered with segoescb.ttf (printed glyph, out of distribution)",
+      "true_label": "N",
+      "predicted": "N",
+      "confidence": 0.9770727157592773,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "N",
+          "class_index": 23,
+          "probability": 0.9770727157592773
+        },
+        {
+          "rank": 2,
+          "character": "n",
+          "class_index": 43,
+          "probability": 0.022721631452441216
+        },
+        {
+          "rank": 3,
+          "character": "W",
+          "class_index": 32,
+          "probability": 4.78083711641375e-05
+        },
+        {
+          "rank": 4,
+          "character": "V",
+          "class_index": 31,
+          "probability": 4.50680308858864e-05
+        },
+        {
+          "rank": 5,
+          "character": "d",
+          "class_index": 38,
+          "probability": 3.11846197291743e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\font_03_071.png",
+      "file": "font_03_071.png",
+      "family": "font",
+      "source": "rendered with comic.ttf (printed glyph, out of distribution)",
+      "true_label": "G",
+      "predicted": "G",
+      "confidence": 0.9951037168502808,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "G",
+          "class_index": 16,
+          "probability": 0.9951037168502808
+        },
+        {
+          "rank": 2,
+          "character": "g",
+          "class_index": 41,
+          "probability": 0.00452066445723176
+        },
+        {
+          "rank": 3,
+          "character": "6",
+          "class_index": 6,
+          "probability": 0.0003206993860658258
+        },
+        {
+          "rank": 4,
+          "character": "5",
+          "class_index": 5,
+          "probability": 1.5455791071872227e-05
+        },
+        {
+          "rank": 5,
+          "character": "S",
+          "class_index": 28,
+          "probability": 1.0325522453058511e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\font_04_087.png",
+      "file": "font_04_087.png",
+      "family": "font",
+      "source": "rendered with comicbd.ttf (printed glyph, out of distribution)",
+      "true_label": "W",
+      "predicted": "W",
+      "confidence": 0.9999876022338867,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "W",
+          "class_index": 32,
+          "probability": 0.9999876022338867
+        },
+        {
+          "rank": 2,
+          "character": "N",
+          "class_index": 23,
+          "probability": 2.908796204792452e-06
+        },
+        {
+          "rank": 3,
+          "character": "M",
+          "class_index": 22,
+          "probability": 2.695666807994712e-06
+        },
+        {
+          "rank": 4,
+          "character": "H",
+          "class_index": 17,
+          "probability": 2.109975184794166e-06
+        },
+        {
+          "rank": 5,
+          "character": "U",
+          "class_index": 30,
+          "probability": 1.7920864365805755e-06
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\font_05_054.png",
+      "file": "font_05_054.png",
+      "family": "font",
+      "source": "rendered with comici.ttf (printed glyph, out of distribution)",
+      "true_label": "6",
+      "predicted": "6",
+      "confidence": 0.9410538077354431,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "6",
+          "class_index": 6,
+          "probability": 0.9410538077354431
+        },
+        {
+          "rank": 2,
+          "character": "G",
+          "class_index": 16,
+          "probability": 0.042727045714855194
+        },
+        {
+          "rank": 3,
+          "character": "b",
+          "class_index": 37,
+          "probability": 0.012631002813577652
+        },
+        {
+          "rank": 4,
+          "character": "5",
+          "class_index": 5,
+          "probability": 0.0008784158853814006
+        },
+        {
+          "rank": 5,
+          "character": "8",
+          "class_index": 8,
+          "probability": 0.000693050678819418
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\font_06_066.png",
+      "file": "font_06_066.png",
+      "family": "font",
+      "source": "rendered with Inkfree.ttf (printed glyph, out of distribution)",
+      "true_label": "B",
+      "predicted": "B",
+      "confidence": 0.9956586360931396,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "B",
+          "class_index": 11,
+          "probability": 0.9956586360931396
+        },
+        {
+          "rank": 2,
+          "character": "b",
+          "class_index": 37,
+          "probability": 0.004163128789514303
+        },
+        {
+          "rank": 3,
+          "character": "3",
+          "class_index": 3,
+          "probability": 0.00013816889259032905
+        },
+        {
+          "rank": 4,
+          "character": "8",
+          "class_index": 8,
+          "probability": 1.0924970410997048e-05
+        },
+        {
+          "rank": 5,
+          "character": "P",
+          "class_index": 25,
+          "probability": 1.0495004971744493e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\font_07_104.png",
+      "file": "font_07_104.png",
+      "family": "font",
+      "source": "rendered with segoesc.ttf (printed glyph, out of distribution)",
+      "true_label": "h",
+      "predicted": "h",
+      "confidence": 0.7433823347091675,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "h",
+          "class_index": 42,
+          "probability": 0.7433823347091675
+        },
+        {
+          "rank": 2,
+          "character": "W",
+          "class_index": 32,
+          "probability": 0.20785242319107056
+        },
+        {
+          "rank": 3,
+          "character": "r",
+          "class_index": 45,
+          "probability": 0.01944047585129738
+        },
+        {
+          "rank": 4,
+          "character": "n",
+          "class_index": 43,
+          "probability": 0.010080642998218536
+        },
+        {
+          "rank": 5,
+          "character": "b",
+          "class_index": 37,
+          "probability": 0.008559012785553932
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\font_08_075.png",
+      "file": "font_08_075.png",
+      "family": "font",
+      "source": "rendered with segoescb.ttf (printed glyph, out of distribution)",
+      "true_label": "K",
+      "predicted": "K",
+      "confidence": 0.9999895095825195,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "K",
+          "class_index": 20,
+          "probability": 0.9999895095825195
+        },
+        {
+          "rank": 2,
+          "character": "R",
+          "class_index": 27,
+          "probability": 6.0820020735263824e-06
+        },
+        {
+          "rank": 3,
+          "character": "r",
+          "class_index": 45,
+          "probability": 2.9567511319328332e-06
+        },
+        {
+          "rank": 4,
+          "character": "H",
+          "class_index": 17,
+          "probability": 8.097163686215936e-07
+        },
+        {
+          "rank": 5,
+          "character": "X",
+          "class_index": 33,
+          "probability": 2.0919516430240037e-07
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\font_09_067.png",
+      "file": "font_09_067.png",
+      "family": "font",
+      "source": "rendered with comic.ttf (printed glyph, out of distribution)",
+      "true_label": "C",
+      "predicted": "C",
+      "confidence": 0.9987651109695435,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "C",
+          "class_index": 12,
+          "probability": 0.9987651109695435
+        },
+        {
+          "rank": 2,
+          "character": "6",
+          "class_index": 6,
+          "probability": 0.0003721906105056405
+        },
+        {
+          "rank": 3,
+          "character": "G",
+          "class_index": 16,
+          "probability": 0.0002800680813379586
+        },
+        {
+          "rank": 4,
+          "character": "e",
+          "class_index": 39,
+          "probability": 0.00018294260371476412
+        },
+        {
+          "rank": 5,
+          "character": "E",
+          "class_index": 14,
+          "probability": 0.00014164939057081938
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\font_10_086.png",
+      "file": "font_10_086.png",
+      "family": "font",
+      "source": "rendered with comicbd.ttf (printed glyph, out of distribution)",
+      "true_label": "V",
+      "predicted": "V",
+      "confidence": 0.9995367527008057,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "V",
+          "class_index": 31,
+          "probability": 0.9995367527008057
+        },
+        {
+          "rank": 2,
+          "character": "Y",
+          "class_index": 34,
+          "probability": 0.0003609633131418377
+        },
+        {
+          "rank": 3,
+          "character": "U",
+          "class_index": 30,
+          "probability": 3.386311436770484e-05
+        },
+        {
+          "rank": 4,
+          "character": "r",
+          "class_index": 45,
+          "probability": 3.2515723432879895e-05
+        },
+        {
+          "rank": 5,
+          "character": "N",
+          "class_index": 23,
+          "probability": 1.077737397281453e-05
+        }
+      ]
+    },
+    {
+      "path": "C:\\Hand Written Character recognition\\samples\\font_11_049.png",
+      "file": "font_11_049.png",
+      "family": "font",
+      "source": "rendered with comici.ttf (printed glyph, out of distribution)",
+      "true_label": "1",
+      "predicted": "1",
+      "confidence": 0.5292587280273438,
+      "correct": true,
+      "in_top_3": true,
+      "in_top_5": true,
+      "top_k": [
+        {
+          "rank": 1,
+          "character": "1",
+          "class_index": 1,
+          "probability": 0.5292587280273438
+        },
+        {
+          "rank": 2,
+          "character": "I",
+          "class_index": 18,
+          "probability": 0.300827294588089
+        },
+        {
+          "rank": 3,
+          "character": "L",
+          "class_index": 21,
+          "probability": 0.16118758916854858
+        },
+        {
+          "rank": 4,
+          "character": "2",
+          "class_index": 2,
+          "probability": 0.0031907109078019857
+        },
+        {
+          "rank": 5,
+          "character": "J",
+          "class_index": 19,
+          "probability": 0.00208930391818285
+        }
+      ]
+    }
+  ],
+  "figures": {
+    "edge_case": "C:\\Hand Written Character recognition\\outputs\\figures\\samples_edge_case.png",
+    "font": "C:\\Hand Written Character recognition\\outputs\\figures\\samples_font.png",
+    "photo": "C:\\Hand Written Character recognition\\outputs\\figures\\samples_photo.png"
+  },
+  "explanation_figures": [
+    "C:\\Hand Written Character recognition\\outputs\\figures\\inference_steps_photo_00_077.png",
+    "C:\\Hand Written Character recognition\\outputs\\figures\\inference_steps_photo_01_072.png",
+    "C:\\Hand Written Character recognition\\outputs\\figures\\inference_steps_photo_02_098.png",
+    "C:\\Hand Written Character recognition\\outputs\\figures\\inference_steps_photo_03_074.png"
+  ],
+  "note": "These are simulated camera/scan renderings of unseen EMNIST test glyphs and printed-font glyphs, not photographs of a real person's handwriting. The 'font' family is deliberately out of distribution."
+}

@@ -1,0 +1,64 @@
+{
+  "selected_experiment": "exp6_cnn_deep_aug_lr",
+  "selection_criterion": "highest validation accuracy",
+  "val_accuracy": 0.9071808457374573,
+  "architecture_variant": "deep",
+  "parameters": {
+    "trainable": 594383,
+    "non_trainable": 1408,
+    "total": 595791
+  },
+  "hyperparameters": {
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "max_epochs": 25,
+    "epochs_run": 25,
+    "val_fraction": 0.1,
+    "seed": 42,
+    "early_stopping_patience": 5
+  },
+  "augmentation": {
+    "rotation_degrees": 10.0,
+    "translation_fraction": 0.1,
+    "zoom_fraction": 0.1,
+    "fill_mode": "constant (0 = background)",
+    "excluded": [
+      "horizontal flip (b<->d, p<->q)",
+      "vertical flip (M<->W, b<->p)",
+      "rotations >= 45 degrees (6<->9, N<->Z)",
+      "shear beyond natural slant"
+    ],
+    "applied_to": "training split only"
+  },
+  "exported": {
+    "model": "C:\\Hand Written Character recognition\\models\\final\\handwritten_character_cnn.keras",
+    "labels": "C:\\Hand Written Character recognition\\models\\final\\labels.json",
+    "config": "C:\\Hand Written Character recognition\\models\\final\\preprocessing_config.json"
+  },
+  "reload_verification": {
+    "n_compared": 256,
+    "max_abs_probability_difference": 0.0,
+    "labels_identical": true
+  },
+  "test_metrics": {
+    "accuracy": 0.9000531914893617,
+    "precision_macro": 0.90359558032282,
+    "recall_macro": 0.9000531914893615,
+    "f1_macro": 0.8990374909582115,
+    "precision_weighted": 0.9035955803228198,
+    "recall_weighted": 0.9000531914893617,
+    "f1_weighted": 0.8990374909582113
+  },
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "cpu_count": 8,
+    "numpy": "2.0.2",
+    "seed": 42,
+    "tensorflow": "2.18.1",
+    "gpus": [],
+    "scikit_learn": "1.5.2"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "name": "exp2_cnn_simple",
+  "dataset": "emnist_balanced",
+  "question": "How far does a plain CNN (no BN, no dropout) get?",
+  "variant": "simple",
+  "augmentation": null,
+  "lr_schedule": false,
+  "hyperparameters": {
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "max_epochs": 12,
+    "epochs_run": 8,
+    "val_fraction": 0.1,
+    "seed": 42,
+    "early_stopping_patience": 5
+  },
+  "parameters": {
+    "trainable": 472591,
+    "non_trainable": 0,
+    "total": 472591
+  },
+  "n_train": 101520,
+  "n_val": 11280,
+  "n_test_untouched": 18800,
+  "n_classes": 47,
+  "train_seconds": 695.1,
+  "seconds_per_epoch": 86.9,
+  "best_epoch_1based": 3,
+  "val_accuracy": 0.8804964423179626,
+  "val_loss": 0.32943859696388245,
+  "train_accuracy_at_best": 0.8844365477561951,
+  "train_val_gap": 0.003940105438232422,
+  "history": {
+    "accuracy": [
+      0.7775118350982666,
+      0.8684988021850586,
+      0.8844365477561951,
+      0.8944247364997864,
+      0.9022359848022461,
+      0.9095744490623474,
+      0.9160460829734802,
+      0.9210205078125
+    ],
+    "loss": [
+      0.7194383144378662,
+      0.37496984004974365,
+      0.3194922208786011,
+      0.28473612666130066,
+      0.2572656571865082,
+      0.23455150425434113,
+      0.21382971107959747,
+      0.19497939944267273
+    ],
+    "val_accuracy": [
+      0.8515070676803589,
+      0.8689716458320618,
+      0.8804964423179626,
+      0.8867907524108887,
+      0.882446825504303,
+      0.8797872066497803,
+      0.8827127814292908,
+      0.8802304863929749
+    ],
+    "val_loss": [
+      0.42275118827819824,
+      0.3685527443885803,
+      0.32943859696388245,
+      0.33527421951293945,
+      0.33301669359207153,
+      0.33164751529693604,
+      0.344830185174942,
+      0.3650556802749634
+    ]
+  },
+  "model_path": "C:\\Hand Written Character recognition\\models\\final\\emnist_balanced_exp2_cnn_simple.keras",
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "cpu_count": 8,
+    "numpy": "2.0.2",
+    "seed": 42,
+    "tensorflow": "2.18.1",
+    "gpus": [],
+    "scikit_learn": "1.5.2"
+  }
+}

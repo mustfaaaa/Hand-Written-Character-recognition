@@ -1,0 +1,248 @@
+[
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_00_077.jpg",
+    "true_label": "M",
+    "family": "photo",
+    "source": "EMNIST test index 1614 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_01_072.png",
+    "true_label": "H",
+    "family": "photo",
+    "source": "EMNIST test index 9645 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_02_098.jpg",
+    "true_label": "b",
+    "family": "photo",
+    "source": "EMNIST test index 18329 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_03_074.png",
+    "true_label": "J",
+    "family": "photo",
+    "source": "EMNIST test index 14301 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_04_097.jpg",
+    "true_label": "a",
+    "family": "photo",
+    "source": "EMNIST test index 13099 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_05_086.png",
+    "true_label": "V",
+    "family": "photo",
+    "source": "EMNIST test index 8132 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_06_052.jpg",
+    "true_label": "4",
+    "family": "photo",
+    "source": "EMNIST test index 3431 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_07_114.png",
+    "true_label": "r",
+    "family": "photo",
+    "source": "EMNIST test index 14771 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_08_075.jpg",
+    "true_label": "K",
+    "family": "photo",
+    "source": "EMNIST test index 16126 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_09_070.png",
+    "true_label": "F",
+    "family": "photo",
+    "source": "EMNIST test index 12292 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_10_081.jpg",
+    "true_label": "Q",
+    "family": "photo",
+    "source": "EMNIST test index 1769 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_11_101.png",
+    "true_label": "e",
+    "family": "photo",
+    "source": "EMNIST test index 8465 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_12_050.jpg",
+    "true_label": "2",
+    "family": "photo",
+    "source": "EMNIST test index 1675 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_13_051.png",
+    "true_label": "3",
+    "family": "photo",
+    "source": "EMNIST test index 13824 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_14_082.jpg",
+    "true_label": "R",
+    "family": "photo",
+    "source": "EMNIST test index 9405 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_15_086.png",
+    "true_label": "V",
+    "family": "photo",
+    "source": "EMNIST test index 14533 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_16_103.jpg",
+    "true_label": "g",
+    "family": "photo",
+    "source": "EMNIST test index 8242 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_17_104.png",
+    "true_label": "h",
+    "family": "photo",
+    "source": "EMNIST test index 17423 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_18_065.jpg",
+    "true_label": "A",
+    "family": "photo",
+    "source": "EMNIST test index 6970 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_19_084.png",
+    "true_label": "T",
+    "family": "photo",
+    "source": "EMNIST test index 9890 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_20_056.jpg",
+    "true_label": "8",
+    "family": "photo",
+    "source": "EMNIST test index 2407 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_21_110.png",
+    "true_label": "n",
+    "family": "photo",
+    "source": "EMNIST test index 3784 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_22_072.jpg",
+    "true_label": "H",
+    "family": "photo",
+    "source": "EMNIST test index 13482 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\photo_23_054.png",
+    "true_label": "6",
+    "family": "photo",
+    "source": "EMNIST test index 15783 (unseen during training)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\edge_light_on_dark_056.png",
+    "true_label": "8",
+    "family": "edge_case",
+    "source": "EMNIST test index 3940, rendered as light_on_dark"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\edge_transparent_png_056.png",
+    "true_label": "8",
+    "family": "edge_case",
+    "source": "EMNIST test index 3940, rendered as transparent_png"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\edge_small_56px_056.png",
+    "true_label": "8",
+    "family": "edge_case",
+    "source": "EMNIST test index 3940, rendered as small_56px"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\edge_large_900px_056.jpg",
+    "true_label": "8",
+    "family": "edge_case",
+    "source": "EMNIST test index 3940, rendered as large_900px"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\edge_offcentre_whitespace_056.png",
+    "true_label": "8",
+    "family": "edge_case",
+    "source": "EMNIST test index 3940, rendered as offcentre_whitespace"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\font_00_082.png",
+    "true_label": "R",
+    "family": "font",
+    "source": "rendered with Inkfree.ttf (printed glyph, out of distribution)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\font_01_090.png",
+    "true_label": "Z",
+    "family": "font",
+    "source": "rendered with segoesc.ttf (printed glyph, out of distribution)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\font_02_078.png",
+    "true_label": "N",
+    "family": "font",
+    "source": "rendered with segoescb.ttf (printed glyph, out of distribution)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\font_03_071.png",
+    "true_label": "G",
+    "family": "font",
+    "source": "rendered with comic.ttf (printed glyph, out of distribution)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\font_04_087.png",
+    "true_label": "W",
+    "family": "font",
+    "source": "rendered with comicbd.ttf (printed glyph, out of distribution)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\font_05_054.png",
+    "true_label": "6",
+    "family": "font",
+    "source": "rendered with comici.ttf (printed glyph, out of distribution)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\font_06_066.png",
+    "true_label": "B",
+    "family": "font",
+    "source": "rendered with Inkfree.ttf (printed glyph, out of distribution)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\font_07_104.png",
+    "true_label": "h",
+    "family": "font",
+    "source": "rendered with segoesc.ttf (printed glyph, out of distribution)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\font_08_075.png",
+    "true_label": "K",
+    "family": "font",
+    "source": "rendered with segoescb.ttf (printed glyph, out of distribution)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\font_09_067.png",
+    "true_label": "C",
+    "family": "font",
+    "source": "rendered with comic.ttf (printed glyph, out of distribution)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\font_10_086.png",
+    "true_label": "V",
+    "family": "font",
+    "source": "rendered with comicbd.ttf (printed glyph, out of distribution)"
+  },
+  {
+    "path": "C:\\Hand Written Character recognition\\samples\\font_11_049.png",
+    "true_label": "1",
+    "family": "font",
+    "source": "rendered with comici.ttf (printed glyph, out of distribution)"
+  }
+]
